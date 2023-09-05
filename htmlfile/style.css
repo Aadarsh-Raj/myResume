@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(52, 50, 56);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+}
+.main-content{
+    display: flex;
+    width: 70%;
+    min-width: 850px;
+    margin:auto;
+    background-color: rgb(52, 54, 56);
+    color: azure;
+    border: solid;
+    border-color: rgb(7, 7, 7);
+    height: max-content;
+}
+.left, .right{
+    width: 100%;
+    text-align: center;
+}
+.triangle{
+   width: 100%;
+   height: 36vh;
+   background: linear-gradient(to top left, whitesmoke 0%, whitesmoke 50%,rgb(52, 54, 56) 50%, rgb(52, 54, 56) 100%);
+   position: absolute;
+}
+.left{
+    background-color:whitesmoke;
+    color: black;
+    padding-right: 0;
+    width: 80%;
+    position: relative;
+    z-index: 2;
+}
+.left .pic{
+    position: relative;
+    z-index: 1;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    border: solid;
+    border-radius: 40px;
+    border-color: greenyellow;
+    border-width: 5px;
+}
+.info p{
+    margin: 1.25rem;
+    color: rgb(135, 131, 131);
+    font-weight: bold;
+}
+
+.left h1, .left h3{
+    color: #2f2d2d;
+}
+.profile h3{
+    text-align: left;
+    background-color: rgb(153, 151, 151);
+    padding: 2px;
+}
+.profile{
+    font-size: 11px;
+    color: rgb(135, 131, 131);
+    
+}
+.profile p{
+    padding: 1.25rem 3px;
+}
+.contact p{
+    text-align: left;
+    padding: 3px;
+}
+/* .right{
+
+} */
+.heading-container{
+    background-color: rgb(147, 183, 147);
+    color: #2f2d2d;
+    padding: 1.25rem;
+    position: relative;
+    z-index:1;
+}
+.right dl{
+    text-align: left;
+    margin-left: 3px;
+}
+
+.right dl dt sup{
+    font-size: 9px;
+}
+
+.right dl dd{
+    font-style:italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+}
+.right p{
+    margin-bottom: 1.5rem;
+   
+}
+
+.project h4{
+     text-align: left;
+     margin: 5px;
+}
+.container-1{
+    position: relative;
+}
+.angled-container{
+    width: 45px;
+    height: 54px;
+    /* background-color: rgb(255, 3, 3); */
+    transform: rotate(-168deg);
+    background-color: rgb(49, 104, 49);
+    position: absolute;
+    top: 10px;
+    left: 0;
+
+    border-radius: 0 50% 0 -1;
+    z-index: 0;
+}
+.skills{
+    
+    background-color: rgb(140, 215, 28);
+    width: 80%;
+    margin: 1rem auto 8px auto;
+    padding: 0.4rem;
+}
