@@ -8,6 +8,21 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 11px;
 }
+.social-media{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0px;
+    z-index: 5;
+    animation-name: slider;
+animation-duration: 4s;
+}
+.social{
+    display: none;
+    text-align: right;
+    font-style: none;
+    color: white;
+}
 .main-content{
     display: flex;
     width: 70%;
@@ -46,6 +61,8 @@ body{
     border-radius: 40px;
     border-color: greenyellow;
     border-width: 5px;
+    width: 56%;
+    height: 30%;
 }
 .info p{
     margin: 1.25rem;
@@ -64,6 +81,7 @@ body{
 .profile{
     font-size: 11px;
     color: rgb(135, 131, 131);
+    margin: 5rem 0;
     
 }
 .profile p{
@@ -73,9 +91,7 @@ body{
     text-align: left;
     padding: 3px;
 }
-/* .right{
 
-} */
 .heading-container{
     background-color: rgb(147, 183, 147);
     color: #2f2d2d;
@@ -101,7 +117,9 @@ body{
     margin-bottom: 1.5rem;
    
 }
-
+.right p dl dt{
+    font-weight: 300;
+}
 .project h4{
      text-align: left;
      margin: 5px;
@@ -128,4 +146,14 @@ body{
     width: 80%;
     margin: 1rem auto 8px auto;
     padding: 0.4rem;
+}
+
+
+@keyframes slider {
+    from{
+        top:-190px;
+    }
+    to{
+        top:0;
+    }
 }

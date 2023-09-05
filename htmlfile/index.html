@@ -9,6 +9,17 @@
 </head>
 
 <body>
+    <header class="social-media">
+        <a href="" onmouseover="socialGit()"><span class="social" id="github">Github</span><img
+                src="./icons8-github.svg" alt=""></a>
+        <a href="" onmouseover="socialLinkedin()"><span class="social" 
+             id="linkedin">Linkedin</span><img src="./icons8-linkedin.svg"
+                alt=""></a>
+        <a href="" onmouseover="socialWhatsapp()"><span class="social"  id="whatsapp">Whats App</span><img src="./icons8-whatsapp.svg"
+                alt=""></a>
+        <a href="" onmouseover="socialInsta()"><span class="social"  id="instagram">Instagram</span><img src="./icons8-instagram.svg"
+                alt=""></a>
+    </header>
     <main class="main-content">
         <section class="left">
 
@@ -130,5 +141,19 @@
         </section>
     </main>
 </body>
+<script>
+    socialGit(){
+        document.getElementById("github").style.display = "visible";
+    }
+    socialLinkedin(){
+        document.getElementById("linkedin").style.display = "visible";
+    }
+    socialWhatsapp(){
+        document.getElementById("whatsapp").style.display = "visible";
+    }
+    socialInsta(){
+        document.getElementById("instagram").style.display = "visible";
+    }
+</script>
 
 </html>
